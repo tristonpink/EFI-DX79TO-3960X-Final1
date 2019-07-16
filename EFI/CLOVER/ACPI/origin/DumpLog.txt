@@ -1,0 +1,64 @@
+19:745  7:557  Found BIOS RSDP at FE020
+19:745  0:000  Printing ACPI tables from RSDP FE020 ...
+19:745  0:000   FE020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:745  0:000    (Xsdt: CB7FD120, Rsdt: CB7FD0AC)
+19:745  0:000    CB7FD120: 'XSDT', 'DX79TO', Rev: 1, Len: 108
+19:745  0:000    CB7FD0AC: 'RSDT', 'DX79TO', Rev: 1, Len: 72
+19:745  0:000    Tables in Xsdt: 9
+19:745  0:000    0. CB7FC000: 'FACP', 'DX79TO', Rev: 3, Len: 244
+19:745  0:000        (Dsdt: CB7F7000, Facs: CB70D000, XDsdt: CB7F7000, XFacs: CB70D000)
+19:745  0:000        CB7F7000: 'DSDT', 'DX79TO', Rev: 2, Len: 19902
+19:745  0:000        CB70D000: 'FACS', Ver: 0, Len: 64
+19:745  0:000    1. CB7F6000: 'APIC', 'DX79TO', Rev: 2, Len: 312
+19:745  0:000    2. CB7F5000: 'MCFG', 'DX79TO', Rev: 1, Len: 60
+19:745  0:000    3. CB7F4000: 'ASF!', 'DX79TO', Rev: 32, Len: 165
+19:745  0:000    4. CB7F3000: 'HPET', 'DX79TO', Rev: 1, Len: 56
+19:745  0:000    5. CB7F1000: 'ASPT', 'DX79TO', Rev: 7, Len: 52
+19:745  0:000    6. CB7E1000: 'SSDT', 'SSDT  PM', Rev: 1, Len: 61524
+19:745  0:000    7. CB7DF000: 'DMAR', 'DX79TO', Rev: 1, Len: 232
+19:746  0:000    8. CB7F2000: 'TCPA', 'DX79TO', Rev: 2, Len: 50
+19:746  0:000    Tables in Rsdt: 9
+19:746  0:000    0. CB7FC000: 'FACP', 'DX79TO', Rev: 3, Len: 244
+19:746  0:000        (Dsdt: CB7F7000, Facs: CB70D000, XDsdt: CB7F7000, XFacs: CB70D000)
+19:746  0:000        CB7F7000: 'DSDT', 'DX79TO', Rev: 2, Len: 19902
+19:746  0:000        CB70D000: 'FACS', Ver: 0, Len: 64
+19:746  0:000    1. CB7F6000: 'APIC', 'DX79TO', Rev: 2, Len: 312
+19:746  0:000    2. CB7F5000: 'MCFG', 'DX79TO', Rev: 1, Len: 60
+19:746  0:000    3. CB7F4000: 'ASF!', 'DX79TO', Rev: 32, Len: 165
+19:746  0:000    4. CB7F3000: 'HPET', 'DX79TO', Rev: 1, Len: 56
+19:746  0:000    5. CB7F1000: 'ASPT', 'DX79TO', Rev: 7, Len: 52
+19:746  0:000    6. CB7E1000: 'SSDT', 'SSDT  PM', Rev: 1, Len: 61524
+19:746  0:000    7. CB7DF000: 'DMAR', 'DX79TO', Rev: 1, Len: 232
+19:746  0:000    8. CB7F2000: 'TCPA', 'DX79TO', Rev: 2, Len: 50
+19:746  0:000  Found UEFI Acpi 2.0 RSDP at CB7FD014
+19:746  0:000  Saving ACPI tables from RSDP CB7FD014 to EFI\CLOVER\ACPI\origin ...
+19:746  0:000   CB7FD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+19:803  0:057    (Xsdt: CB7FD120, Rsdt: CB7FD0AC)
+19:803  0:000    CB7FD120: 'XSDT', 'DX79TO', Rev: 1, Len: 108 -> XSDT.aml
+19:851  0:048    CB7FD0AC: 'RSDT', 'DX79TO', Rev: 1, Len: 72 -> RSDT.aml
+19:900  0:048    Tables in Xsdt: 9
+19:900  0:000    0. CB7FC000: 'FACP', 'DX79TO', Rev: 3, Len: 244 -> FACP.aml
+19:948  0:048        (Dsdt: CB7F7000, Facs: CB70D000, XDsdt: CB7F7000, XFacs: CB70D000)
+19:948  0:000        CB7F7000: 'DSDT', 'DX79TO', Rev: 2, Len: 19902 -> DSDT.aml
+19:987  0:038        CB70D000: 'FACS', Ver: 0, Len: 64 -> FACS.aml
+20:017  0:029    1. CB7F6000: 'APIC', 'DX79TO', Rev: 2, Len: 312 -> APIC.aml
+20:046  0:029    2. CB7F5000: 'MCFG', 'DX79TO', Rev: 1, Len: 60 -> MCFG.aml
+20:076  0:029    3. CB7F4000: 'ASF!', 'DX79TO', Rev: 32, Len: 165 -> ASF!.aml
+20:106  0:029    4. CB7F3000: 'HPET', 'DX79TO', Rev: 1, Len: 56 -> HPET.aml
+20:136  0:029    5. CB7F1000: 'ASPT', 'DX79TO', Rev: 7, Len: 52 -> ASPT.aml
+20:166  0:029    6. CB7E1000: 'SSDT', 'SSDT  PM', Rev: 1, Len: 61524 -> SSDT-0-SSDT  PM.aml
+20:201  0:035    7. CB7DF000: 'DMAR', 'DX79TO', Rev: 1, Len: 232 -> DMAR.aml
+20:224  0:023    8. CB7F2000: 'TCPA', 'DX79TO', Rev: 2, Len: 50 -> TCPA.aml
+20:254  0:029    Tables in Rsdt: 9
+20:254  0:000    0. CB7FC000: 'FACP', 'DX79TO', Rev: 3, Len: 244
+20:254  0:000        (Dsdt: CB7F7000, Facs: CB70D000, XDsdt: CB7F7000, XFacs: CB70D000)
+20:254  0:000        CB7F7000: 'DSDT', 'DX79TO', Rev: 2, Len: 19902
+20:255  0:000        CB70D000: 'FACS', Ver: 0, Len: 64
+20:255  0:000    1. CB7F6000: 'APIC', 'DX79TO', Rev: 2, Len: 312
+20:255  0:000    2. CB7F5000: 'MCFG', 'DX79TO', Rev: 1, Len: 60
+20:255  0:000    3. CB7F4000: 'ASF!', 'DX79TO', Rev: 32, Len: 165
+20:255  0:000    4. CB7F3000: 'HPET', 'DX79TO', Rev: 1, Len: 56
+20:255  0:000    5. CB7F1000: 'ASPT', 'DX79TO', Rev: 7, Len: 52
+20:255  0:000    6. CB7E1000: 'SSDT', 'SSDT  PM', Rev: 1, Len: 61524
+20:255  0:000    7. CB7DF000: 'DMAR', 'DX79TO', Rev: 1, Len: 232
+20:255  0:000    8. CB7F2000: 'TCPA', 'DX79TO', Rev: 2, Len: 50
