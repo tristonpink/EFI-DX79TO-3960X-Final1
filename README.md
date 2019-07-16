@@ -1,6 +1,6 @@
 # EFI-DX79TO-3960X-Final1
 Successful with SMBIOS MacPro6.1, but hardware decoding of RX480 is not working. MacOS:Mojave 10.14.5.
-I have to change the SMBIOS to iMacPro1.1, now I am working with it , but got stuck at USB.
+I have to change the SMBIOS to iMacPro1.1, now I am working on it , but got stuck at USB.
 
 EmuVariableUEFI.EFI and boot args:npci=0x3000,slide=0 is necessary , and audio injecting 99 with AppleALC.kext works well .
 
